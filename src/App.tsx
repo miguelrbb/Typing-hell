@@ -1,10 +1,12 @@
-function App() {
+import "./App.css";
+import { Input } from "./components/Input.component";
 
+function App() {
   return (
     <>
-      Vamos los pibes
+      <Input />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
